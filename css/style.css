@@ -46,7 +46,7 @@ header{
 .cards{
     /* background-color: blueviolet;  */
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap; 
     margin: auto;
     height: 100%;
     width: 100%;
@@ -55,13 +55,88 @@ header{
 }
 .card-big{
     background-color: #b5ddff;
-      width: calc((100% / 3 ) *2  ); 
+      width: calc((100% / 3  ) *2  - 20px); 
+      margin: 10px;
     height: 340px;
+    display: flex;
+    flex-wrap: nowrap;
 }
 .card{
-    background-color: blue;
-     width: calc(100% / 3 ); 
+    background-color: #b5ddff;
+     width: calc(100% / 3 - 20px ); 
+     margin: 10px;
      height: 340px;
+     
+}
+.text2-card{
+    width: calc(50% - 10px);
+    margin: 0 10px;
+    height: 100%;
+    /* background-color: brown; */
+    padding: 30px 20px;
+
+}
+.blue-title{
+    color: #0084fd;
+    font-size: 28px;
+    text-align: left;
+
+}
+.apple{
+    background-color: #0084fd;
+    padding: 10px 60px;
+    font-size: 20px;
+    border-radius: 10px;
+    margin-top: 30px;
+
+}
+.marg-apple{
+    margin-right: 10px;
+}
+.parag{
+    font-size: 18px;
+    text-align: left;
+    color: #6b8296;
+    margin: 30px 0;
+    line-height: 25px;
+}
+.img2-card{
+    width: calc(50% - 10px);
+    margin: 0 10px;
+    height: 100%;
+    /* background-color: chartreuse; */
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.phone{
+    width: 60%;
+}
+.img-card{
+    width: calc(100% - 20px);
+    height: calc(50% - 20px); 
+    margin: 10px 10px; 
+   /* background-color: brown; */
+    
+
+}
+.file-center{
+    color: #0084fd;
+    font-size: 80px;
+    text-align: center;
+    padding-top: 20px;
+   
+}
+.center{
+    text-align: center;
+}
+
+.text-card{
+    width: calc(100% - 20px);
+    height: calc(50% - 20px); 
+    margin: 10px 10px; 
+    
+    /* background-color: chartreuse; */
 }
 .section2{
     background-color:#9792e4 ;
@@ -71,7 +146,7 @@ header{
     margin-bottom:50px ;
 }
 .container-s2{
-    background-color: aqua;
+    /* background-color: aqua; */
     height: 1000px;
     width: 60%;
     margin: auto;
@@ -80,9 +155,96 @@ header{
 }
 .col{
     height: 100%;
-    width: 50%;
-    background-color: brown;
+    width: calc(50% - 10px);
+    margin: 0px 10px;
+    /* background-color: brown; */
    
+}
+.col-flex{
+    height: 100%;
+    width: calc(50% - 10px);
+    margin: 0px 10px;
+    /* background-color: brown; */
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    
+   
+}
+.col-img{
+    width: 100%;
+    height: 50%;
+    /* background-color: #0084fd; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.col-text{
+    width: 100%;
+    height: 50%;
+    /* background-color: chartreuse; */
+}
+.planning1{
+    width: 80%;
+}
+.title-planning{
+    font-size: 40px;
+    color: white;
+    padding: 0px 50px;
+    padding-top: 120px;
+    padding-bottom: 60px;
+}
+.p-planning{
+    font-size: 20px;
+    color: white;
+    padding: 0px 50px;
+    text-align: left;
+    line-height: 30px;
+
+}
+.cont-planning{
+    background-color: white;
+    height: 60%;
+    width: 80%;
+    border-radius: 20px;
+    
+}
+.planning2{
+    width: 100%;
+ 
+    text-align: center;
+}
+.box-planning2{
+    width: 60%;
+    margin: auto;
+    height: 300px;
+    /* background-color: blue; */
+
+}
+.text-box2{
+    width: 70%;
+    margin: auto;
+    height: 250px;
+    /* background-color: cadetblue; */
+    text-align: center;
+}
+.text-em{
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.img-title{
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.arrow{
+    background-color: #9792e4;
+    border-radius: 100%;
+    padding: 20px;
+    text-align: center;
 }
 .section3{
     background-color:white;
@@ -152,11 +314,11 @@ header{
     height: 900px;
     width: 100%;
     background-color: chocolate;
-    justify-content: center;
+    
 }
 .box{
-    width: 30%;
-    margin-right: 10px;
+    width: calc(100% / 3 - 20px);
+    margin:10px;
     height: 400px ;
     background-color: blue;
 
@@ -194,9 +356,21 @@ header{
     padding-bottom: 50px;
 } 
 .container-start{
-    width: 50%;
+    width: 40%;
     height: 100%;
     background-color: aqua;
     margin: auto;
     
+}
+footer{
+    height: 250px;
+    width: 100%;
+    background-color:#1f1f1f ;
+    padding: 30px 0;
+}
+.container-footer{
+    width: 40%;
+    height: 100%;
+    background-color: brown;
+    margin: auto;
 }
