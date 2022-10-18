@@ -28,7 +28,7 @@ header{
     text-decoration: none;
     color: white;
     font-size: 18px;
-    /* margin-right: 35px; */
+     margin-right: 35px; 
 }
 .link2{
     text-decoration: none;
@@ -98,6 +98,9 @@ header{
     font-size: 20px;
     border-radius: 10px;
     margin-top: 30px;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
 
 }
 .marg{
@@ -128,7 +131,7 @@ header{
     align-items: flex-end;
 }
 .phone{
-    width: 60%;
+    width: 55%;
 }
 .img-card{
     width: calc(100% - 20px);
