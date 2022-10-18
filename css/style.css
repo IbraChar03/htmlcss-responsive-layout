@@ -1018,6 +1018,34 @@ footer{
        /* background-color: brown; */
 
     }
+    .apple{
+        background-color: #0084fd;
+        padding: 10px 20px;
+        font-size: 20px;
+        border-radius: 10px;
+        margin-top: 30px;
+        text-decoration: none;
+        color: white;
+        font-size: 18px;
+    
+    }
+    .parag2{
+        font-size: 18px;
+        text-align: left;
+        color: #6b8296;
+        /* margin: 20px 0; */
+        margin-top: 60px;
+    
+    
+    }
+    .parag{
+        font-size: 18px;
+        text-align: left;
+        color: #6b8296;
+        /* margin: 20px 0; */
+        line-height: 25px;
+        margin-top: 60px;
+    }
     .text-card{
         width: calc(100% - 20px);
         height: 70%; 
