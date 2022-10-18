@@ -15,6 +15,9 @@ header{
 .head-mobile{
     display: none;
 }
+.head{
+    display: block;
+}
 .container-header{
     height: 100%;
     width: 80%;
@@ -108,16 +111,23 @@ header{
 }
 .parag{
     font-size: 18px;
+    color: #6b8296;
+    margin: 30px 0;
+    line-height: 25px;
+}
+.parag-big{
+    font-size: 18px;
     text-align: left;
     color: #6b8296;
-    margin: 20px 0;
     line-height: 25px;
+    margin: 20px 0;
+
 }
 .parag2{
     font-size: 18px;
     text-align: left;
     color: #6b8296;
-    margin: 20px 0;
+    margin: 30px 0;
 
 
 }
@@ -1045,6 +1055,15 @@ footer{
         /* margin: 20px 0; */
         line-height: 25px;
         margin-top: 60px;
+    }
+    .parag-big{
+        font-size: 18px;
+        text-align: left;
+        color: #6b8296;
+        /* margin: 20px 0; */
+        line-height: 25px;
+        margin: 20px 0;
+
     }
     .text-card{
         width: calc(100% - 20px);
