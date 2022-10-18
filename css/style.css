@@ -105,15 +105,15 @@ header{
     font-size: 18px;
     text-align: left;
     color: #6b8296;
-    margin: 50px 0;
+    margin: 60px 0;
     line-height: 25px;
 }
 .parag2{
     font-size: 18px;
     text-align: left;
     color: #6b8296;
-    margin: 10px 0;
-    line-height: 25px;
+    margin: 60px 0;
+
 
 }
 .img2-card{
@@ -923,15 +923,326 @@ footer{
     width: 70%;
 }
 
-
-        
-  
-
-
     
 }
 /* mobile */
-@media screen and (min-width:200px) and (max-width:500px){
+@media screen and (min-width:200px) and (max-width:599px){
+    body,html{
+        overflow-x: hidden;
+    }
+    .container-header{
+        height: 100%;
+        width: 80%;
+        margin: 0 auto;
+        /* background-color: blueviolet; */
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .head{
+        display: none;
+    }
+    .head-mobile{
+        display: block;
+    }
+    .menu{
+        color: white;
+        font-size: 20px;
+    }
+    .dropdown{
+        position: relative;
+        display: inline-block;
+    }
+    .dropdown-content{
+        display: none;
+        position: absolute;
+        background-color: white;
+         min-width: 80px; 
+         font-size: 18px;
+    }
+    .dropdown-content a {
+        color: black;
+          padding: 12px 10px;  
+         display: block; 
+    } 
+    .dropdown-content a:hover {
+        background-color: #f1f1f1;
+    }
+     .dropdown:hover .dropdown-content{
+        display: block;
+    }
 
+    .container{
+        width: 90%;
+    }
+    .text2-card{
+        width: 100%;
+        margin: 10 0px;
+        height: 50%;
+        display: block;
+        /* background-color: brown; */
+        /* padding: 30px 20px; */
+        /* margin-bottom: 10px; */
+    
+    }
+    .img2-card{
+        width: 100%;
+        margin:  0px;
+        height: 50%;
+        /* background-color: chartreuse; */
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+       
+    }
+    .card-big{
+        background-color: #b5ddff;
+          width:100%; 
+           margin: 10px; 
+        /* height: 340px; */
+        display: block;
+        border-radius: 20px;
+    }
+    .card{
+        width:100%;
+    }
+    .img-card{
+        width: calc(100% - 20px);
+        height: 25%; 
+        margin: 10px 10px; 
+       /* background-color: brown; */
+
+    }
+    .text-card{
+        width: calc(100% - 20px);
+        height: 70%; 
+        margin: 10px 10px; 
+        
+        /* background-color: chartreuse; */
+    }
+    .container-s2{
+        /* background-color: aqua; */
+        /* height: 1000px; */
+        width: 100%;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .col{
+        height: 50%;
+        width:100%;
+        margin: 0px 10px;
+        /* background-color: brown; */
+       
+    }
+    .col-flex{
+        height: 100%;
+        width: 100%;
+        margin: 0px 10px;
+        margin-top: 30px;
+        /* background-color: brown; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .img-title{
+        color: black;
+        font-size: 30px;
+        text-align: center;
+        padding-bottom: 10px;
+    }
+    .planning2{
+        margin-bottom: 50px;
+        margin-top: 30px;
+    }
+    .box-planning2{
+        width: 60%;
+        margin: auto;
+        height: 300px;
+        /* background-color: blue; */
+    
+    }
+    .text-box2{
+        width: 70%;
+        margin: auto;
+        /* height: 250px; */
+        /* background-color: cadetblue; */
+        text-align: center;
+        margin-top: 0px;
+    }
+    .text-em{
+        font-size: 18px;
+        line-height: 25px;
+        text-align: center;
+        padding-bottom: 30px;
+    }
+    .container-s2{
+        width: 100%;
+    }
+    .box-expert{
+        width: 90%;
+    }
+    .container-test{
+        /* background-color: chartreuse;  */
+       /* height: 1200px;   */
+       width: 100%;
+       margin:auto;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       flex-wrap: wrap;
+      
+       
+   }
+   .testimonials{
+    display: block;
+   
+    width: 80%;
+    height: 100%;
+   
+   }
+   blockquote {
+    text-align: center;
+   }
+   .name{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+   }
+   .box-img-aboutus{
+    /* height: 300px; */
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    padding-top: 30px;
+}
+
+   .testimonial1{
+     width: 200px;
+    height: 200px; 
+   
+ }
+   .textimg{
+    height: 50%;
+    /* margin-left: 40px; */
+   }
+   .boximg{
+    width: 50%;
+    height: 40%;
+   }
+   .cont-planning{
+    padding-bottom: 50px;
+   }
+   .container-benefits{
+    /* background-color: #9792e4; */
+    /* height: 1000px; */
+    width: 90%;
+    margin: auto;
+    /* display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; */
+    
+}
+.text-benefits{
+    width: 100%;
+    font-size: 40px;
+  
+}
+.text-num{
+    color: #a9a9a9 ;
+    line-height: 25px;
+    font-size: 18px;
+    margin-top: 30px;
+    text-align: left;
+    width: 100%;
+   
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    /* height: 900px; */
+    width: 100%;
+    /* background-color: chocolate; */
+    justify-content: space-between;
+    
+}
+
+.box{
+    width: 100%;
+    margin:auto;
+    margin-bottom: 30px;
+    /* height: 450px ; */
+    background-color: white;
+    border-radius: 20px;
+    padding: 40px;
+
+}
+.container-aboutus{
+    /* background-color: brown;  */
+     /* height: 800px;  */
+     padding-bottom: 60px;
+    width: 100% ;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.text-aboutus{
+    /* height: 100%; */
+    width:90%;
+     /* background-color: chartreuse;  */
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    
+} 
+.linkedin-aboutus{
+    height: 100%;
+    width: 90%;
+    margin: auto;
+     /* background-color: blue;  */
+}
+.text-linkedin{
+    color: #9792e4;
+    font-size: 30px;
+    padding-top: 30px;
+}
+.box-linkedin{
+    width: 100%;
+    height: 100%;
+}
+.img-about{
+    width: 200px;
+    /* height: 250px; */
+    border-radius: 100%;
+    text-align: left;
+}
+.linkedin{
+    background-color: #9792e4;
+    /* padding: 8px 8px; */
+    border-radius: 20px;
+    /* text-align: center; */
+    width: 10px;
+}
+.container-start{
+    width: 70%;
+    /* height: 100%;
+    background-color: aqua; */
+    margin: auto;
+    
+}
+
+.cont-simple{
+    width: 100%;
+}
+.cont-free{
+    width: 100%;
+}
+.cont-footer{
+    width:100%;
+
+} 
+.container-footer{
+    width: 70%;
+}
     
 }
